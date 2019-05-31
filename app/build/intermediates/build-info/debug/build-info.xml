@@ -2,13 +2,13 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1559230468880"
+    timestamp="1559330434640"
     token="2433740327085777821"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -24,14 +24,13 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1559230218257"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1559328479831"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -60,22 +59,22 @@
             location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1559230468880"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        timestamp="1559330434640"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="C:\Users\CHARAN\Desktop\Android Development\MyTODO\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

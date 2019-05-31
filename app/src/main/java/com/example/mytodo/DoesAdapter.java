@@ -15,13 +15,14 @@ import com.example.mytodo.R;
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DoesAdapter extends RecyclerView.Adapter<DoesAdapter.MyViewHolder>{
 
     Context context;
-    ArrayList myDoes;
+    List<my_todo> myDoes;
 
-    public DoesAdapter(Context c, ArrayList p) {
+    public DoesAdapter(Context c, List<my_todo> p) {
         context = c;
         myDoes = p;
     }
@@ -34,9 +35,9 @@ public class DoesAdapter extends RecyclerView.Adapter<DoesAdapter.MyViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i){
-        MyViewHolder.titledoes.setText(myDoes.get(i).getTitledoes());
-        MyViewHolder.descdoes.setText(myDoes.get(i).getTitledoes());
-        MyViewHolder.datedoes.setText(myDoes.get(i).getTitledoes());
+        myViewHolder.titledoes.setText(myDoes.get(i).getTitledoes());
+        myViewHolder.descdoes.setText(myDoes.get(i).getDescdoes());
+        myViewHolder.datedoes.setText(myDoes.get(i).getDatedoes());
     }
 
 
